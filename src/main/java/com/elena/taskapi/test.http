@@ -1,0 +1,16 @@
+### POST task
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+
+{
+    "title": "Brooming",
+    "completed": false
+}
+
+### DELETE task
+DELETE http://localhost:8080/api/tasks/4
+
+
+### GET task
+GET http://localhost:8080/api/tasks/3
