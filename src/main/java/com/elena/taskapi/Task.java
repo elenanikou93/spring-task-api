@@ -23,4 +23,8 @@ public class Task {
     public boolean isCompleted() {
         return completed;
     }
+
+    public void setId(int nextId) {
+        this.id = nextId;
+    }
 }
